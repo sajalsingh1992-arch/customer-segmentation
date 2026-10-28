@@ -1,0 +1,29 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv_clean/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files (keep customer_segmentation.ipynb)
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
